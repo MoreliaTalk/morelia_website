@@ -1,5 +1,15 @@
-import "../styles/main.scss"
+import {AppProps} from "next/app";
+import MainNavBar from "../components/MainNavBar";
 
-export default function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+import "bootstrap/dist/css/bootstrap.min.css";
+
+function MyApp({ Component, pageProps }: AppProps) {
+    return(
+        <>
+            <MainNavBar/>
+            <Component {...pageProps} />
+        </>
+    )
 }
+
+export default MyApp;

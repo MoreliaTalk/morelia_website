@@ -16,20 +16,19 @@ class IndexPage extends React.Component{
                             />
                         </Col>
                     </Row>
-                    <Row className="justify-content-center text-center mb-2">
-                        <Col md={"4"}>
-                            <h1 style={{fontSize: "5rem", fontWeight: "600"}}>MoreliaTalk</h1>
-                            <p style={{fontSize: "1.5rem"}}>
-                                Быстрый и безопасный мессенджер с открытым исходным кодом,
-                                написанный на <span style={{fontWeight: "600"}}>Python</span>
-                            </p>
-                        </Col>
-                    </Row>
+                    <Row className="justify-content-center text-center"><Col>
+                        <h1 style={{fontSize: "5rem", fontWeight: "600"}}>MoreliaTalk</h1>
+                    </Col></Row>
+                    <Row className="justify-content-center text-center mb-2"><Col md={"4"}>
+                        <p style={{fontSize: "1.5rem"}}>
+                            Быстрый и безопасный мессенджер с открытым исходным кодом,
+                            написанный на <span style={{fontWeight: "600"}}>Python</span>
+                        </p>
+                    </Col></Row>
                     <Row className="justify-content-center text-center"><Col md={"auto"}>
                         <Button size="lg" href="/download">Скачать</Button>
                     </Col></Row>
                 </Container>
-
             </>
         )
     }

@@ -7,7 +7,7 @@ class IndexPage extends React.Component{
         return(
             <>
                 <Container fluid className="mt-5">
-                    <div style={{marginBottom: "50px"}}>
+                    <div className="mb-5">
                         <Row className="justify-content-center text-center mb-2">
                             <Col md="auto">
                                 <Image
@@ -63,7 +63,7 @@ class IndexPage extends React.Component{
                             <p>
                                 Наш сервер, а также основные клиенты написаны на Python,
                                 самом гибком и удобном языке в мире. Использование этого языка даёт
-                                безграничные возможности для внедрения разнообразных возможностей,
+                                безграничные возможности для внедрения разнообразных фишек,
                                 которые отсутвуют в других мессенджерах.
                             </p>
                         </Col>

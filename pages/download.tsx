@@ -1,6 +1,5 @@
 import React from "react";
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
-import {Image} from "react-bootstrap";
 
 class DownloadPage extends React.Component{
     render() {

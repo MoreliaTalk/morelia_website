@@ -1,3 +1,3 @@
 module.exports = {
-    assetPrefix: "./morelia_website"
+    assetPrefix: "/morelia_website/"
 }

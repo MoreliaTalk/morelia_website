@@ -15,7 +15,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && gh-pages -d out"
+    "deploy": "next build && next export && gh-pages -d out --add"
   },
   "devDependencies": {
     "@types/react": "^17.0.38",

@@ -11,7 +11,7 @@ class IndexPage extends React.Component{
                         <Row className="justify-content-center text-center mb-2">
                             <Col md="auto">
                                 <Image
-                                    src="/cobra-colored.svg"
+                                    src="./cobra-colored.svg"
                                     width="200"
                                     height="200"
                                 />

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import * as React from "react";
 import {Button, Col, Container, Image, Row} from "react-bootstrap";
 
@@ -26,7 +27,7 @@ class IndexPage extends React.Component{
                             </p>
                         </Col></Row>
                         <Row className="justify-content-center text-center"><Col md={"auto"}>
-                            <Button size="lg" href="/download">Скачать</Button>
+                            <Link href="/download" passHref><Button size="lg">Скачать</Button></Link>
                         </Col></Row>
                     </div>
                     <Row className="justify-content-center">

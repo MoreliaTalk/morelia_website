@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {Collapse, Container, Nav, Navbar} from "react-bootstrap";
 
@@ -6,10 +7,10 @@ class MainNavBar extends React.Component{
         return (
             <Navbar bg="dark" variant="dark">
                 <Container fluid>
-                    <Navbar.Brand href="/">MoreliaTalk</Navbar.Brand>
+                    <Link href="/" passHref><Navbar.Brand>MoreliaTalk</Navbar.Brand></Link>
                     <Nav className="me-auto">
-                        <Nav.Link href="/download">Скачать</Nav.Link>
-                        <Nav.Link href="/about">О нас</Nav.Link>
+                        <Link href="/download" passHref><Nav.Link>Скачать</Nav.Link></Link>
+                        <Link href="/about" passHref><Nav.Link>О нас</Nav.Link></Link>
                     </Nav>
                 </Container>
             </Navbar>

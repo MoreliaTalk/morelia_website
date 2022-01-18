@@ -1,6 +1,5 @@
 import * as React from "react";
-import {Button, Col, Container, Row} from "react-bootstrap";
-import Image from "next/image"
+import {Button, Col, Container, Image, Row} from "react-bootstrap";
 
 class IndexPage extends React.Component{
     render(){

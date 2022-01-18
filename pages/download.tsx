@@ -7,7 +7,7 @@ class DownloadPage extends React.Component{
             <Container fluid className="p-3">
                 <Row className="justify-content-center g-3">
                     <Col md={"6"}>
-                        <Card.Img src="./desktop_client.png" variant="top"/>
+                        <Card.Img src="desktop_client.png" variant="top"/>
                         <Card><Card.Body>
                             <Card.Title>Клиент для ПК</Card.Title>
                             <Card.Text>

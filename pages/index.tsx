@@ -18,7 +18,7 @@ class IndexPage extends React.Component{
                             </Col>
                         </Row>
                         <Row className="justify-content-center text-center"><Col>
-                            <h1 style={{fontSize: "5rem", fontWeight: "600"}}>MoreliaTalk</h1>
+                            <h1 className="fw-bold display-2">MoreliaTalk</h1>
                         </Col></Row>
                         <Row className="justify-content-center text-center mb-2"><Col md={"4"}>
                             <p style={{fontSize: "1.5rem"}}>

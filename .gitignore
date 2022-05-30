@@ -1,6 +1,0 @@
-.idea/
-.next/
-.yarn/*
-!.yarn/releases/
-node_modules/
-out/

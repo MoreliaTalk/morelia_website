@@ -1,14 +1,24 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: MoreliaTalk Project Site
-actionText: Quick Start →
-actionLink: /guide/
+heroImage: /logo.svg
+tagline: Легко интегрируемый мессенджер с открытым исходным кодом
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Easy integration
+  details: "Вам необходима система чатов в вашем проекте, но вы не хотите тратить время на её реализацию?
+  Просто используйте MoreliaTalk, и вы получите лучшее решение за минимальное время!"
+- title: Self-hosted
+  details: "Хотите развернуть мессенджер у себя дома? Да пожалуйста, пару минут - и готово. Теперь все ваши чаты хранятся только у вас."
+- title: Cross-Platform
+  details: Работает везде - в вашем смартфоне, компьютере, браузере, умных часах - да хоть на утюге!
+- title: Your data is only yours
+  details: "Мы шифруем ваши данные, что бы доступ к вашим сообщениям имеете лишь вы и те, кому вы доверяете.
+  Все сообщения шифруются уникальным ключём, который генерируется при создании чата."
+- title: Open-source
+  details: "Наши исходники полностью открыты для всех желающих! Это означает, что мы ничего не прячем от вас.
+  Любой человек может изучить исходные тексты MoreliaTalk, а если захочет, даже поучаствовать в его разработке или
+  создать свой мессенджер на основе MoreliaTalk."
+- title: Fast
+  details: "Благодаря использованию асинхронного протокола WebSocket, наш мессенджер очень быстрый.
+  Минимум задержки и максимум удобства для клиентских приложений"
+footer: This site made by MoreliaTalkTeam with ❤️
 ---

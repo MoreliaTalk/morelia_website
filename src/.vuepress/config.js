@@ -1,17 +1,18 @@
 const { description } = require('../../package.json')
+const {defaultTheme} = require("vuepress");
 
 module.exports = {
   title: "MoreliaTalk",
   description: description,
 
-  themeConfig: {
+  theme: defaultTheme({
     repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
     search: false,
-    nav: [
+    navbar: [
       {
         text: 'О нас',
         link: '/about',
@@ -21,7 +22,7 @@ module.exports = {
         link: "https://github.com/MoreliaTalk-"
       }
     ]
-  },
+  }),
 
   plugins: [
     '@vuepress/plugin-back-to-top',

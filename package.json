@@ -4,9 +4,10 @@
   "description": "MoreliaTalk Project Site",
   "main": "index.js",
   "authors": {
-    "name": "MoreliaTalk team"
+    "name": "",
+    "email": ""
   },
-  "repository": "https://github.com/MoreliaTalk/moreliatalk.github.io",
+  "repository": "/moreliatalk.github.io",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"

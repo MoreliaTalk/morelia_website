@@ -7,7 +7,6 @@ module.exports = {
   lang: "ru-RU",
 
   theme: defaultTheme({
-    repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',

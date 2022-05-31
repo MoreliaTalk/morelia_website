@@ -7,16 +7,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
-
+    
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 16.x
         cache: 'yarn'
         
     - name: Install dependencies
@@ -29,6 +26,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4.2.3
       with:
         branch: docs
-        folder: ./sc/.vuepress/dist
+        folder: ./src/.vuepress/dist
     
     

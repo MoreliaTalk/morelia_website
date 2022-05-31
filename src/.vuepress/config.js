@@ -13,6 +13,7 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     search: false,
+    contributors: false,
     navbar: [
       {
         text: 'О проекте',

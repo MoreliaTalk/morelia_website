@@ -4,6 +4,7 @@ const {defaultTheme} = require("vuepress");
 module.exports = {
   title: "MoreliaTalk",
   description: description,
+  lang: "ru-RU",
 
   theme: defaultTheme({
     repo: '',
@@ -14,12 +15,20 @@ module.exports = {
     search: false,
     navbar: [
       {
+        text: 'О проекте',
+        link: '/about_project',
+      },
+      {
         text: 'О нас',
-        link: '/about',
+        link: '/about_us',
+      },
+      {
+        text: 'Документация',
+        link: '/docs'
       },
       {
         text: 'Github',
-        link: "https://github.com/MoreliaTalk-"
+        link: "https://github.com/MoreliaTalk"
       }
     ]
   }),

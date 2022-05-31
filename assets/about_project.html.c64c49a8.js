@@ -1,0 +1,1 @@
+const t={key:"v-2bf090ea",path:"/about_project.html",title:"\u041E MoreliaTalk",lang:"ru-RU",frontmatter:{sidebar:!1},excerpt:"",headers:[],git:{},filePathRelative:"about_project.md"};export{t as data};
